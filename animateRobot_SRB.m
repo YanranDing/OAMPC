@@ -28,12 +28,12 @@ X_ = interp1(tin,Xin,t_);
 U_ = interp1(tin,Uin,t_);
 Xd_ = interp1(tin,Xin,t_);
 
-flag_movie = ~(exist('test.avi'));
+flag_movie = ~(exist('movie.mp4'));
 % flag_movie = 0;
 
 if flag_movie
-    name = ['test'];
-    vidfile = VideoWriter(name,'Motion JPEG AVI');
+    name = ['movie'];
+    vidfile = VideoWriter(name,'MPEG-4');
     open(vidfile);
 end
 
