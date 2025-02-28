@@ -5,13 +5,16 @@ Orientation-Aware Model Predictive Control (OA-MPC) is a MATLAB simulation and c
 ![OAMPC](https://github.com/user-attachments/assets/d78cce71-9473-4f91-9ca4-3f304da9f2d2)
 
 Video: https://youtu.be/a8FbjdDHFRY
+Paper: https://ieeexplore.ieee.org/abstract/document/10000244
 
 ## Requirement
 Basic: MATLAB and MATLAB optimization toolbox
+
 OCP formulation: CasADi
 
 ## Installation
 Download CasADi for your corresponding Operation System
+
 add CasADi path to the top of the MAIN function
 
 ## Usage
