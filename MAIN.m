@@ -12,8 +12,10 @@
 %   organization={IEEE}
 % }
 
+
+% ----- addpath to casadi directory ------
 addpath(genpath('casadi_3.6.7_osx_arm64'))
-addpath(genpath('fcns_common'));
+
 tic
 
 clear all;clc; close all;clear mex;
