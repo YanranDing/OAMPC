@@ -15,6 +15,7 @@
 
 % ----- addpath to casadi directory ------
 addpath(genpath('casadi_3.6.7_osx_arm64'))
+addpath('fcns')
 
 tic
 
